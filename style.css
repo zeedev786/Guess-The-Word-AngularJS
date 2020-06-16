@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+}
+
+body {
+    background-color: #16262E;
+display: flex;
+flex-direction: column;
+align-content: center;
+margin: 0 auto;
+flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, sans serif;
+    color: #F7FFF7;
+    font-size: 4vw;
+    overflow: hidden;
+  
+
+}
+
+.wrapper{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 0 0 1;
+  list-style: none;
+  margin: 0 auto; 
+  background: deepskyblue;
+}
+
+.hangman{
+    margin: auto;
+    width: 86vw;
+    max-width: 1920px;
+    height: 48vw;
+    max-height: 1080px;
+    background-color: #000;
+    background-image: url('https://www.instant-gaming.com/images/products/1292/screenshot/1292-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1vmin;
+    position: relative;
+    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.5);
+    font-size: 1vw;
+    overflow: hidden;
+    display: flex;
+}
